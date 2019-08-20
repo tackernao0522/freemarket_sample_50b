@@ -53,5 +53,5 @@ production:
   database: freemarket_sample_50b_production
   username: root
   password: <%= ENV['DATABASE_PASSWORD'] %>
-  reconnect: true
   socket: /var/lib/mysql/mysql.sock
+  reconnect: true
