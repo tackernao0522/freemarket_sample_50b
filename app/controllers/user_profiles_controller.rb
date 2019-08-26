@@ -7,9 +7,12 @@ class UserProfilesController < ApplicationController
   end
 
   def edit
-    @user = User.find(current_user.id)
+    @user = User.find(params[:user_id])
   end
 
   def update
+    @user = User.find(params[:user_id])
+    @user.update(user_session)
+    redirect_back(fallback_location: root_path)
   end
 end
