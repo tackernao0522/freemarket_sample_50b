@@ -1,16 +1,14 @@
 class UserConfirmationsController < ApplicationController
-  before_action :set_user, only: :edit
+  before_action :set_user, only: [:edit, :update]
 
   def create
     
   end
   
   def edit
-    @user = User.find(params[:user_id]).profile
   end
 
   def update
-    @user = User.find(params[:user_id]).profile
     @user.update(profile_params)
     redirect_back(fallback_location: root_path)
   end
