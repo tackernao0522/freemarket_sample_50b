@@ -1,4 +1,9 @@
 class UserProfilesController < ApplicationController
+
+  def index
+    
+  end
+  
   def new
     render layout: 'application-off-header-footer.html.haml'
   end
