@@ -9,7 +9,7 @@
         .user_mypage__container__edit__editform__name
           %figure
             = image_tag "ねこ２.jpg", width: "60", height: "60"
-          %input{type: "text", name: "nickname", class: "user_mypage__container__edit__editform__name__inputbox"}
+          %input{type: "text", name: "nickname",value: "#{@user.nickname}",class: "user_mypage__container__edit__editform__name__inputbox"}
         .user_mypage__container__edit__editform__content
           %textarea{name: "profile_comment"}
           %button{type: "submit", class: "user_mypage__container__edit__editform__content__submit redbtn"} 変更する

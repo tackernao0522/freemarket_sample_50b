@@ -23,7 +23,7 @@ crumb :logout do
 end
 
 crumb :profile do
-  link "プロフィール", profile_path
+  link "プロフィール", edit_user_user_profile_path(current_user, 1)
   parent :mypage
 end
 

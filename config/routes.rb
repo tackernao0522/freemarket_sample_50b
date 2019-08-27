@@ -1,3 +1,4 @@
+
 Rails.application.routes.draw do
   devise_for :users, controllers: {
     registrations: 'users/registrations',
@@ -35,7 +36,6 @@ Rails.application.routes.draw do
   end
 
   get 'mypage', to: 'users#show'
-  get 'profile', to: 'users#profile'
   resources :users, only: :new do
     resources :cards, only: [:index, :new, :destroy] do
       collection do
@@ -43,7 +43,7 @@ Rails.application.routes.draw do
         post 'pay', to: 'cards#pay'
       end
     end
-    resources :user_profiles, only: [:index, :new, :create, :edit, :update]
+    resources :user_profiles, only: [:new, :create, :edit, :update]
     resources :user_confirmations, only: [:create, :edit, :update]
     resources :logouts, only: :new
   end

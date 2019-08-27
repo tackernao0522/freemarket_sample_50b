@@ -1,9 +1,5 @@
-class UserProfilesController < ApplicationController
 
-  def index
-    
-  end
-  
+class UserProfilesController < ApplicationController
   def new
     render layout: 'application-off-header-footer.html.haml'
   end
@@ -12,6 +8,7 @@ class UserProfilesController < ApplicationController
   end
 
   def edit
+    @user = User.find(current_user.id)
   end
 
   def update
