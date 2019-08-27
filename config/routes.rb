@@ -35,6 +35,7 @@ Rails.application.routes.draw do
   end
 
   get 'mypage', to: 'users#show'
+  get 'profile', to: 'users#profile'
   resources :users, only: :new do
     resources :cards, only: [:index, :new, :destroy] do
       collection do
