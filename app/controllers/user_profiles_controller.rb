@@ -10,12 +10,13 @@ class UserProfilesController < ApplicationController
   end
 
   def edit
-    @profile = current_user.profile
+    @profile =  current_user.profile
   end
 
   def update
     @profile = Profile.find(params[:id])
     if @profile.update(profile_param)
+      flash[:notice] = '変更しました'
       redirect_to mypage_path
     else
       render :edit
@@ -25,6 +26,6 @@ class UserProfilesController < ApplicationController
   private
 
   def profile_param
-    params.require(:profile).permit(:nickname, :profile_comment)
+    params.require(:profile).permit(:nickname, :profile_comment, :avatar)
   end
 end
