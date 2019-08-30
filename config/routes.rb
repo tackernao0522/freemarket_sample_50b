@@ -43,7 +43,7 @@ Rails.application.routes.draw do
         post 'pay', to: 'cards#pay'
       end
     end
-    resources :user_profiles, only: [:new, :create, :edit, :update]
+    resources :user_profiles, only: [:edit, :update]
     resources :user_confirmations, only: [:create, :edit, :update]
     resources :logouts, only: :new
   end
