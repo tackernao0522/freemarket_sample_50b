@@ -26,7 +26,7 @@ GEM
       erubi (~> 1.4)
       rails-dom-testing (~> 2.0)
       rails-html-sanitizer (~> 1.0, >= 1.0.3)
-    active_hash (3.0.0)
+    active_hash (2.3.0)
       activesupport (>= 5.0.0)
     activejob (5.2.3)
       activesupport (= 5.2.3)
@@ -1206,7 +1206,7 @@ PLATFORMS
 
 DEPENDENCIES
   aasm
-  active_hash
+  active_hash (~> 2.2, >= 2.2.1)
   activerecord-import
   aws-sdk
   bootsnap (>= 1.1.0)
@@ -1265,4 +1265,4 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
-   2.0.1
+   2.0.2

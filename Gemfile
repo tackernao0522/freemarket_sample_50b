@@ -83,7 +83,7 @@ gem 'erb2haml'
 gem 'font-awesome-rails'
 gem 'gon'
 gem "jquery-rails"
-gem 'active_hash'
+gem 'active_hash', '~> 2.2', '>= 2.2.1'
 gem 'devise'
 gem 'aasm'
 gem 'recaptcha', require: "recaptcha/rails"
