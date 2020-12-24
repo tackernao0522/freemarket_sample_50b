@@ -54,7 +54,11 @@ GEM
       sshkit (>= 1.6.1, != 1.7.0)
     arel (9.0.0)
     aws-eventstream (1.1.0)
+<<<<<<< HEAD
     aws-partitions (1.413.0)
+=======
+    aws-partitions (1.408.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
     aws-sdk (3.0.1)
       aws-sdk-resources (~> 3)
     aws-sdk-accessanalyzer (1.14.0)
@@ -75,7 +79,11 @@ GEM
     aws-sdk-amplifybackend (1.1.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-apigateway (1.58.0)
+=======
+    aws-sdk-apigateway (1.57.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-apigatewaymanagementapi (1.19.0)
@@ -105,7 +113,11 @@ GEM
     aws-sdk-appmesh (1.33.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-appregistry (1.3.0)
+=======
+    aws-sdk-appregistry (1.2.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-appstream (1.48.0)
@@ -132,7 +144,11 @@ GEM
     aws-sdk-backup (1.25.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-batch (1.43.0)
+=======
+    aws-sdk-batch (1.42.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-braket (1.5.0)
@@ -225,6 +241,7 @@ GEM
     aws-sdk-comprehendmedical (1.23.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-computeoptimizer (1.11.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
@@ -232,12 +249,25 @@ GEM
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-connect (1.38.0)
+=======
+    aws-sdk-computeoptimizer (1.10.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-configservice (1.53.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-connect (1.37.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-connectcontactlens (1.0.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-connectparticipant (1.9.0)
+=======
+    aws-sdk-connectparticipant (1.8.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-core (3.110.0)
@@ -248,13 +278,21 @@ GEM
     aws-sdk-costandusagereportservice (1.28.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-costexplorer (1.55.0)
+=======
+    aws-sdk-costexplorer (1.54.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-customerprofiles (1.1.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-databasemigrationservice (1.50.0)
+=======
+    aws-sdk-databasemigrationservice (1.48.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-dataexchange (1.10.0)
@@ -284,7 +322,11 @@ GEM
     aws-sdk-directoryservice (1.37.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-dlm (1.37.0)
+=======
+    aws-sdk-dlm (1.36.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-docdb (1.27.0)
@@ -299,7 +341,11 @@ GEM
     aws-sdk-ebs (1.11.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-ec2 (1.220.0)
+=======
+    aws-sdk-ec2 (1.217.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-ec2instanceconnect (1.11.0)
@@ -320,7 +366,11 @@ GEM
     aws-sdk-eks (1.46.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-elasticache (1.48.0)
+=======
+    aws-sdk-elasticache (1.47.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-elasticbeanstalk (1.40.0)
@@ -377,7 +427,11 @@ GEM
     aws-sdk-globalaccelerator (1.27.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-glue (1.82.0)
+=======
+    aws-sdk-glue (1.80.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-gluedatabrew (1.0.0)
@@ -410,7 +464,11 @@ GEM
     aws-sdk-identitystore (1.3.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-imagebuilder (1.17.0)
+=======
+    aws-sdk-imagebuilder (1.16.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-importexport (1.24.0)
@@ -458,7 +516,11 @@ GEM
     aws-sdk-iotthingsgraph (1.12.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-iotwireless (1.1.0)
+=======
+    aws-sdk-iotwireless (1.0.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-ivs (1.5.0)
@@ -491,7 +553,11 @@ GEM
     aws-sdk-kinesisvideosignalingchannels (1.8.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-kms (1.40.0)
+=======
+    aws-sdk-kms (1.39.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-lakeformation (1.11.0)
@@ -530,7 +596,11 @@ GEM
     aws-sdk-macie2 (1.18.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-managedblockchain (1.18.0)
+=======
+    aws-sdk-managedblockchain (1.17.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-marketplacecatalog (1.9.0)
@@ -605,7 +675,11 @@ GEM
     aws-sdk-organizations (1.55.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-outposts (1.13.0)
+=======
+    aws-sdk-outposts (1.12.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-personalize (1.19.0)
@@ -614,7 +688,11 @@ GEM
     aws-sdk-personalizeevents (1.14.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-personalizeruntime (1.20.0)
+=======
+    aws-sdk-personalizeruntime (1.19.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-pi (1.25.0)
@@ -641,7 +719,11 @@ GEM
     aws-sdk-qldb (1.11.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-qldbsession (1.10.0)
+=======
+    aws-sdk-qldbsession (1.9.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-quicksight (1.39.0)
@@ -650,7 +732,11 @@ GEM
     aws-sdk-ram (1.22.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-rds (1.109.0)
+=======
+    aws-sdk-rds (1.107.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-rdsdataservice (1.23.0)
@@ -665,7 +751,11 @@ GEM
     aws-sdk-rekognition (1.47.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-resourcegroups (1.33.0)
+=======
+    aws-sdk-resourcegroups (1.32.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-resourcegroupstaggingapi (1.34.0)
@@ -931,12 +1021,17 @@ GEM
     aws-sdk-robomaker (1.31.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-route53 (1.45.0)
+=======
+    aws-sdk-route53 (1.44.0)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
     aws-sdk-route53domains (1.28.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-route53resolver (1.22.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
@@ -995,6 +1090,66 @@ GEM
     aws-sdk-shield (1.33.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+=======
+    aws-sdk-route53resolver (1.21.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3 (1.86.2)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sdk-kms (~> 1.26)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3control (1.25.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-s3outposts (1.0.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-sagemaker (1.74.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-sagemakeredgemanager (1.0.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-sagemakerfeaturestoreruntime (1.0.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-sagemakerruntime (1.28.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-savingsplans (1.12.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-schemas (1.10.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-secretsmanager (1.43.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-securityhub (1.36.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-serverlessapplicationrepository (1.32.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-servicecatalog (1.55.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-servicediscovery (1.31.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-servicequotas (1.11.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-ses (1.36.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-sesv2 (1.14.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-shield (1.33.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
     aws-sdk-signer (1.27.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
@@ -1010,6 +1165,7 @@ GEM
     aws-sdk-sns (1.36.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+<<<<<<< HEAD
     aws-sdk-sqs (1.35.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
@@ -1085,6 +1241,83 @@ GEM
     aws-sdk-workspaces (1.49.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
+=======
+    aws-sdk-sqs (1.34.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-ssm (1.100.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-ssoadmin (1.4.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-ssooidc (1.8.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-states (1.37.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-storagegateway (1.52.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-support (1.28.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-swf (1.25.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-synthetics (1.10.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-textract (1.22.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-timestreamquery (1.2.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-timestreamwrite (1.2.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-transcribeservice (1.50.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-transcribestreamingservice (1.24.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-transfer (1.28.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-translate (1.29.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-waf (1.36.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-wafregional (1.37.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-wafv2 (1.14.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-wellarchitected (1.0.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-workdocs (1.28.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-worklink (1.21.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-workmail (1.33.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-workmailmessageflow (1.9.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+    aws-sdk-workspaces (1.49.0)
+      aws-sdk-core (~> 3, >= 3.109.0)
+      aws-sigv4 (~> 1.1)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
     aws-sdk-xray (1.35.0)
       aws-sdk-core (~> 3, >= 3.109.0)
       aws-sigv4 (~> 1.1)
@@ -1170,10 +1403,17 @@ GEM
       railties (>= 5.0.0)
     faker (2.15.1)
       i18n (>= 1.6, < 2)
+<<<<<<< HEAD
     faraday (1.2.0)
       multipart-post (>= 1.2, < 3)
       ruby2_keywords
     ffi (1.14.2)
+=======
+    faraday (1.1.0)
+      multipart-post (>= 1.2, < 3)
+      ruby2_keywords
+    ffi (1.13.1)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
     fog-aws (3.7.0)
       fog-core (~> 2.1)
       fog-json (~> 1.1)
@@ -1234,7 +1474,11 @@ GEM
       rails-dom-testing (>= 1, < 3)
       railties (>= 4.2.0)
       thor (>= 0.14, < 2.0)
+<<<<<<< HEAD
     json (2.5.1)
+=======
+    json (2.4.1)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
     jwt (2.2.2)
     kaminari (1.2.1)
       activesupport (>= 4.1.0)
@@ -1348,7 +1592,11 @@ GEM
       rake (>= 0.8.7)
       thor (>= 0.19.0, < 2.0)
     raindrops (0.19.1)
+<<<<<<< HEAD
     rake (13.0.3)
+=======
+    rake (13.0.1)
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
     rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
@@ -1518,4 +1766,8 @@ RUBY VERSION
    ruby 2.5.1p57
 
 BUNDLED WITH
+<<<<<<< HEAD
    2.2.3
+=======
+   2.2.1
+>>>>>>> 9e0be64e5e136431ff92c90a5dc1678418909e12
